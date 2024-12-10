@@ -8,7 +8,7 @@ Project Overview
 This project implements a Weighted Voronoi Image Stippling System using MATLAB. The goal is to generate stippled images by distributing points based on image brightness and visualizing Voronoi diagrams for geometric representation. The system includes a Graphical User Interface (GUI) for ease of use, allowing users to load datasets, define stippling parameters, and view results interactively. The stippling process utilizes pixel brightness for weighted point generation and Voronoi diagram construction.
 
 Features
-Dataset Loader: Load a folder containing multiple images for processing.
+Dataset Loader: Load a folder containing multiple images for processing.  data set from kaggle : https://www.kaggle.com/datasets/nunenuh/pytorch-challange-flower-dataset
 Customizable Stippling Points: Define the number of points for stippling dynamically.
 Image Navigation: View processed images with "Previous" and "Next" buttons.
 Voronoi Diagram Visualization: Displays geometric cell boundaries over the stippled image.
@@ -71,6 +71,9 @@ GUI Window
 
 Processed Images with Voronoi Overlays
 Original Image	Processed Image with Voronoi Overlay
+
+
+
 Acknowledgments
 This project uses MATLAB for implementation and leverages high-resolution image datasets for testing.
 
